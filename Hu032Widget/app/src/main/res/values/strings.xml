@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hu032Widget</string>
+    <string name="title">Select your favorite to drive</string>
+    <string name="allday">하루 종일</string>
+    <string name="car1">Genesis</string>
+    <string name="car2">Mustang</string>
+    <string name="car3">Lamborghini</string>
+    <string name="car4">Bentley</string>
+    <string name="yourChoice">Your Choice: </string>
+</resources>

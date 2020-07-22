@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number_to_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:hint="@string/enter_a_phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/phone_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="168dp"
+        android:layout_toEndOf="@+id/number_to_call"
+        android:contentDescription="@string/make_a_call"
+        android:onClick="callNumber"
+        android:src="@drawable/ic_call_black_24" />
+
+
+</RelativeLayout>

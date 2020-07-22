@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hu034ImageButton</string>
+    <string name="button">SUBMIT</string>
+    <string name="name">enter a name</string>
+    <string name="password">enter a password</string>
+    <string name="email">enter a email</string>
+</resources>
