@@ -45,9 +45,10 @@ public class MainActivity extends AppCompatActivity {
         int radioId = radioGroup.getCheckedRadioButtonId();
         RadioButton radioButton = findViewById(radioId);
 
-        String msg = "Your choice: " + (String) radioButton.getText();
+        String msg = "Your choice: " + radioButton.getText().toString();
         if (checkBox.isChecked()) msg += " " + checkBox.getText();
         textView2.setText(msg);
         Log.d("HuStar", "<show_message:" + msg);
     }
+
 }

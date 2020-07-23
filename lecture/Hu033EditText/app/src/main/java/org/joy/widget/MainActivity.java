@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                closeKeyboard();
                 show_message();
             }
         });
@@ -49,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                             + " \n" + "Email: " + email.getText().toString(),
                     Toast.LENGTH_LONG).show();
         }
-        closeKeyboard();
     }
 
     private void closeKeyboard() {
