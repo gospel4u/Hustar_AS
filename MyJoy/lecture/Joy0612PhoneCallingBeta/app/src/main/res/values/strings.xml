@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Joy0612PhoneCalling</string>
+    <string name="contact_name">Joe Blow</string>
+    <string name="contact_text_size">24sp</string>
+    <string name="phone_number">14155551212</string>
+    <string name="make_a_call">Make a call</string>
+    <string name="telephony_disabled">TELEPHONY DISABLED!</string>
+    <string name="telephony_enabled">TELEPHONY ENABLED!</string>
+    <string name="phon_calling_disabled">Phone calling disabled</string>
+    <string name="permission_not_granted">PERMISSION NOT GRANTED!</string>
+    <string name="enter_a_phone_number">Enter a phone number</string>
+    <string name="phone_dialing">\"Phone Status: DIALING: \"</string>
+</resources>

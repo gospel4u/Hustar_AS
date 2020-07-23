@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Joy0611PhoneDialing</string>
-    <string name="contact_name">Joe Blow</string>
-    <string name="contact_text_size">24sp</string>
-    <string name="phone_number">14155551212</string>
-    <string name="make_a_call">Make a call</string>
-</resources>

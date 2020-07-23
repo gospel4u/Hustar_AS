@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Hello</string>
-    <string name="button">Button</string>
-    <string name="greet">인사합시다</string>
-    <string name="my_greet">God is good all the time</string>
-</resources>

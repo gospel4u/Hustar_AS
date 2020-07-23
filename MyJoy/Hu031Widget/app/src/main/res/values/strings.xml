@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hu031Widget</string>
+    <string name="greeting">안녕하세요</string>
+    <string name="your_greeting">your greeting here</string>
+</resources>
