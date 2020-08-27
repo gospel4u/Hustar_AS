@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("HuStar", "<sendMessage");
     }
     */
+    
 
     private String getMessage(View v) {
         EditText et = new EditText(this);

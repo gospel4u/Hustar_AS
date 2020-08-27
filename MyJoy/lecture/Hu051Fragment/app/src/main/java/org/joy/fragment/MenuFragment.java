@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-/**
+/*
  * A simple {@link Fragment} subclass.
  * Use the {@link MenuFragment#newInstance} factory method to
  * create an instance of this fragment.
@@ -25,7 +25,8 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 MainActivity activity = (MainActivity) getActivity();
-                activity.onFragmentChanged(1);
+                    activity.onFragmentChanged(1);
+
             }
         });
         return rootView;

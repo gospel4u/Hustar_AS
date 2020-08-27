@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number_to_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:hint="enter a phone number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/phone_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="164dp"
+        android:layout_toEndOf="@+id/number_to_call"
+        android:contentDescription="make a call"
+        android:onClick="smsSendMessage"
+        app:srcCompat="@drawable/ic_baseline_message_24" />
+
+    <EditText
+        android:id="@+id/sms_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="@string/enter_message_here"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewEnd"
+        android:autofillHints="God is good all the time" />
+
+</RelativeLayout>

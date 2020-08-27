@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
     // public static final String TAG = MainActivity.class.getSimpleName();
     public static final String TAG = "HuStar";
 

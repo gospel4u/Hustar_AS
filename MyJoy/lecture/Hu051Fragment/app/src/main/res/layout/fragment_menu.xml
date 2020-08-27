@@ -8,12 +8,14 @@
     tools:context=".MainFragment">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="My MenuFragment"
         android:textSize="30sp" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Main 화면으로"

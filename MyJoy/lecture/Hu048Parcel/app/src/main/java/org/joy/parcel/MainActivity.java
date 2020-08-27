@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (resultCode == RESULT_OK) {
                 Bundle bundle = data.getExtras();
-                BookData book = bundle.getParcelable(KEY_SERVICE);
+                BookData book = bundle.getParceslable(KEY_SERVICE);
                 textView2.setText("Received: " + book.getTitle() + ", " + book.getPrice());
             }
         }

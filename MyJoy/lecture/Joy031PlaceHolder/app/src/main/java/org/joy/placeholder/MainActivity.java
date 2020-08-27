@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.transition.TransitionManager;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private ConstraintLayout layout;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         layout = findViewById(R.id.layout);
         placeholder = findViewById(R.id.placeholder);
+
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)

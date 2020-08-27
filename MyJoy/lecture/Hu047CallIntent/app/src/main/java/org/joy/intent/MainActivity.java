@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                ComponentName name = new ComponentName("org.techtown.callintent",
-                        "org.techtown.callintent.JoyActivity");
+                ComponentName name = new ComponentName("org.joy.intent",
+                        "org.joy.intent.JoyActivity");
                 intent.setComponent(name);
                 startActivityForResult(intent, 101);
             }
